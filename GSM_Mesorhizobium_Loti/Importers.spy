@@ -1,0 +1,118 @@
+Structural()
+DeQuote()
+
+#
+##
+### inputs
+##
+#
+
+NO3_tx:
+	1 x_NITRATE  -> 1 "NITRATE"# + "PROTON"
+	~
+NH4_tx:
+	1 x_AMMONIUM -> 1 "AMMONIA" + "PROTON"
+	~
+
+N2_tx:
+	1 "x_NITROGEN-MOLECULE" -> 1 "NITROGEN-MOLECULE"
+	~
+O2_tx:
+	1 "x_OXYGEN-MOLECULE" -> 1 "OXYGEN-MOLECULE"
+	~
+SO4_tx:
+	1 x_SULFATE  -> 1 "SULFATE"# + 2 "PROTON" 
+	~
+Pi_tx:
+	1 x_Pi -> 1 "|Pi|" # + 2 "PROTON"  # Proton balancing
+	~
+CO2_imp_tx:
+	1 "x_CARBON-DIOXIDE" -> "CARBON-DIOXIDE"
+	~
+##Trace Elements
+
+Mg_tx:
+    1 "x_MG+2" -> "MG+2" 
+    ~
+Fe_tx:
+    1 "x_FE+2" -> "FE+2"
+    ~
+MoO4_tx:
+    1 "x_CPD-3" -> "CPD-3" # + 4 "PROTON"
+    ~
+
+
+Cobalt_tx:
+    1 "x_CO+2"  -> "CO+2"
+    ~
+
+#
+##
+### Additional Importers
+##
+#
+"WATER_tx":
+    "x_WATER" <> "WATER"
+    ~
+#"PROTON_tx":
+#    "x_PROTON" <> "PROTON"
+#    ~
+
+#
+##
+### Carbon and Photosynthesis import
+##
+#
+
+"GLC_tx":
+    "x_GLC" -> "GLC"
+    ~
+"SUCROSE_tx":
+    "x_SUCROSE" -> "SUCROSE"
+    ~
+##"PALMITATE_tx":
+##    "x_PALMITATE" -> "PALMITATE"
+##    ~
+
+OxAc_tx:
+    "x_OXALACETIC_ACID" -> "OXALACETIC_ACID"
+    ~    
+    
+"MAL_tx":
+    "x_MAL" <> "MAL"
+    ~
+#additional transporters
+
+#"SORBITOL_tx":
+#   "x_SORBITOL" <> "SORBITOL"
+#   ~
+
+#"GALACTOSE_tx":
+#   "x_GALACTOSE" <> "GALACTOSE"
+#   ~
+
+#"Glycogens_tx":
+#   "x_Glycogens" <> "Glycogens"
+#   ~
+#"THREO-DS-ISO-CITRATE_tx":
+#   "x_THREO-DS-ISO-CITRATE" <> "THREO-DS-ISO-CITRATE"
+#   ~
+
+#"L-ARABINOSE_tx":
+#   "x_L-ARABINOSE" <> "L-ARABINOSE"
+#   ~
+
+#"L-FUCOSE_tx":
+#   "x_L-FUCOSE" <> "L-FUCOSE"
+#   ~
+
+#"CIS-ACONITATE_tx":
+#   "x_CIS-ACONITATE" <> "CIS-ACONITATE"
+#   ~
+#
+"GLYCEROL_tx":
+    "x_GLYCEROL" -> "GLYCEROL"
+    ~
+#"THYMIDINE_tx":
+#    "x_THYMIDINE" -> "THYMIDINE"
+#    ~

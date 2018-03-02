@@ -1,0 +1,435 @@
+Structural()
+DeQuote()
+##
+# proteinogenic Amino Acids
+##
+"ALAConsSym_tx":
+	1.0 "WATER" + 1.0 "Charged-ALA-tRNAs" -> 1.0 "ALA-tRNAs" + 1.0 "PROTON" + 1.0 "x_L-ALPHA-ALANINEConsSym"
+	~
+
+"ARGConsSym_tx":
+	1.0 "Charged-ARG-tRNAs" + 1.0 "WATER" -> 1.0 "ARG-tRNAs" + 1.0 "PROTON" + 1.0 "x_ARGConsSym" 
+	~
+
+"ASNConsSym_tx":
+	1.0 "WATER" + 1.0 "Charged-ASN-tRNAs" -> 1.0 "ASN-tRNAs" + 1.0 "x_ASNConsSym" + 1.0 "PROTON_S"
+	~
+
+"ASPConsSym_tx":
+	1.0 "WATER" + 1.0 "Charged-ASP-tRNAs"-> 1.0 "x_L-ASPARTATEConsSym" + 1.0 "ASP-tRNAs" + "PROTON_S"
+	~
+
+"CYSConsSym_tx":
+	1.0 "Charged-CYS-tRNAs" + 1.0 "WATER" -> 1.0 "x_CYSConsSym" + 1.0 "CYS-tRNAs" + 1.0 "PROTON"
+	~
+
+"GLNConsSym_tx":
+	1.0 "Charged-GLN-tRNAs" + 1.0 "WATER" -> 1.0 "PROTON" + 1.0 "x_GLNConsSym" + 1.0 "GLN-tRNAs"
+	~
+
+"GLTConsSym_tx":
+	1.0 "WATER" + 1.0 "Charged-GLT-tRNAs" -> 1.0 "x_GLTConsSym" + 1.0 "GLT-tRNAs" + "PROTON"
+	~
+
+"GLYConsSym_tx":
+	1.0 "WATER" + 1.0 "Charged-GLY-tRNAs" -> 1.0 "GLY-tRNAs" + 1.0 "x_GLYConsSym" + 1.0 "PROTON"
+	~
+
+"HISConsSym_tx":
+	1.0 "Charged-HIS-tRNAs" + 1.0 "WATER" -> 1.0 "x_HISConsSym" + 1.0 "PROTON" + 1.0 "HIS-tRNAs"
+	~
+
+"ILEConsSym_tx":
+	1.0 "Charged-ILE-tRNAs" + 1.0 "WATER" -> 1.0 "PROTON" + 1.0 "ILE-tRNAs" + 1.0 "x_ILEConsSym"
+	~
+
+"LEUConsSym_tx":
+	1.0 "Charged-LEU-tRNAs" + 1.0 "WATER" -> 1.0 "x_LEUConsSym" + 1.0 "LEU-tRNAs" + 1.0 "PROTON"
+	~
+
+"LYSConsSym_tx":
+	1.0 "WATER" + 1.0 "Charged-LYS-tRNAs" -> 1.0 "LYS-tRNAs" + 1.0 "PROTON" + 1.0 "x_LYSConsSym"
+	~
+
+"METConsSym_tx":
+	1.0 "WATER" + 1.0 "Charged-MET-tRNAs" -> 1.0 "MET-tRNAs" + 1.0 "x_METConsSym" + 1.0 "PROTON"
+	~
+
+"PHEConsSym_tx":
+	1.0 "Charged-PHE-tRNAs" + 1.0 "WATER" -> 1.0 "PROTON" + 1.0 "x_PHEConsSym" + 1.0 "PHE-tRNAs"
+	~
+
+"PROConsSym_tx":
+	1.0 "Charged-PRO-tRNAs" + 1.0 "WATER" -> 1.0 "PRO-tRNAs" + 1.0 "PROTON" + 1.0 "x_PROConsSym"
+	~
+
+"SERConsSym_tx":
+	1.0 "Charged-SER-tRNAs" + 1.0 "WATER" -> 1.0 "x_SERConsSym" + 1.0 "SER-tRNAs" + 1.0 "PROTON"
+	~
+
+"THRConsSym_tx":
+	1.0 "Charged-THR-tRNAs" + 1.0 "WATER" -> 1.0 "THR-tRNAs" + 1.0 "x_THRConsSym" + 1.0 "PROTON"
+	~
+
+"TRPConsSym_tx":
+	1.0 "Charged-TRP-tRNAs" + 1.0 "WATER" -> 1.0 "TRP-tRNAs" + 1.0 "x_TRPConsSym" + 1.0 "PROTON"
+	~
+
+"TYRConsSym_tx":
+	1.0 "Charged-TYR-tRNAs" + 1.0 "WATER" -> 1.0 "x_TYRConsSym" + 1.0 "PROTON" + 1.0 "TYR-tRNAs"
+	~
+
+"VALConsSym_tx":
+	1.0 "Charged-VAL-tRNAs" + 1.0 "WATER" -> 1.0 "x_VALConsSym" + 1.0 "PROTON" + 1.0 "VAL-tRNAs"
+	~
+
+
+##
+# Soluble Amino Acids
+##
+"R_TSE_ARG":
+	1.0 "ARG" -> 1.0 "x_ARG"
+	~
+
+"R_TSE_ASN":
+	1.0 "ASN" -> 1.0 "x_ASN"
+	~
+
+"R_TSE_CYS":
+	1.0 "CYS" -> 1.0 "x_CYS"
+	~
+	
+"R_TSE_GLN":
+	1.0 "GLN" -> 1.0 "x_GLN"
+	~
+
+"R_TSE_GLT":
+	1.0 "GLT" -> 1.0 "x_GLT"
+	~
+
+"R_TSE_GLY":
+	1.0 "GLY" -> 1.0 "x_GLY"
+	~
+
+"R_TSE_HIS":
+	1.0 "HIS" -> 1.0 "x_HIS"
+	~
+
+"R_TSE_ILE":
+	1.0 "ILE" -> 1.0 "x_ILE"
+	~
+
+"R_TSE_L-ALPHA-ALANINE":
+	1.0 "L-ALPHA-ALANINE" -> 1.0 "x_L-ALPHA-ALANINE"
+	~
+
+"R_TSE_L-ASPARTATE":
+	1.0 "L-ASPARTATE" -> 1.0 "x_L-ASPARTATE"
+	~
+	
+"R_TSE_LEU":
+	1.0 "LEU" -> 1.0 "x_LEU"
+	~
+
+"R_TSE_LYS":
+	1.0 "LYS" -> 1.0 "x_LYS"
+	~
+
+"R_TSE_MET":
+	1.0 "MET" -> 1.0 "x_MET"
+	~
+
+"R_TSE_PHE":
+	1.0 "PHE" -> 1.0 "x_PHE"
+	~
+
+"R_TSE_PRO":
+	1.0 "PRO" -> 1.0 "x_PRO"
+	~
+	
+"R_TSE_SER":
+	1.0 "SER" -> 1.0 "x_SER"
+	~
+	
+"R_TSE_THR":
+	1.0 "THR" -> 1.0 "x_THR"
+	~
+
+"R_TSE_TRP":
+	1.0 "TRP" -> 1.0 "x_TRP"
+	~
+
+"R_TSE_TYR":
+	1.0 "TYR" -> 1.0 "x_TYR"
+	~
+
+"R_TSE_VAL":
+	1.0 "VAL" -> 1.0 "x_VAL"
+	~
+
+##
+# Organic Acids, Sugars 
+##
+
+"R_TSE_BETA-D-FRUCTOSE":
+	1.0 "BETA-D-FRUCTOSE" -> 1.0 "x_BETA-D-FRUCTOSE"
+	~
+	
+"R_TSE_CIT":
+	1.0 "CIT" -> 1.0 "x_CIT"
+	~
+	
+"R_TSE_GLC":
+	1.0 "GLC" -> 1.0 "x_GLC"
+	~
+
+"R_TSE_MAL":
+	1.0 "MAL" -> 1.0 "x_MAL"
+	~
+
+"R_TSE_MYO-INOSITOL":
+	1.0 "MYO-INOSITOL" -> 1.0 "x_MYO-INOSITOL"
+	~
+
+"R_TSE_CPD-8046":
+	1.0 "CPD-8046" -> "x_CPD-8046"
+	~
+
+"R_TSE_OXALACETIC_ACID":
+	1.0 "OXALACETIC_ACID" -> 1.0 "x_OXALACETIC_ACID"
+	~
+
+"R_TSE_SUC":
+	1.0 "SUC" -> 1.0 "x_SUC"
+	~
+
+"R_TSE_SUCROSE":
+	1.0 "SUCROSE" -> 1.0 "x_SUCROSE"
+	~
+
+"R_TSE_HCO3":
+    1.0 "HCO3" -> 1.0 "x_HCO3"
+    ~
+    
+##
+# Fatty Acids and derivatives
+##
+
+"R_TSE_CHOLINE":
+	1.0 "CHOLINE" -> 1.0 "x_CHOLINE"
+	~
+	
+"R_TSE_LINOLEIC_ACID":
+	1.0 "LINOLEIC_ACID" -> 1.0 "x_LINOLEIC_ACID"
+	~
+
+"R_TSE_LINOLENIC_ACID":
+	1.0 "LINOLENIC_ACID" -> 1.0 "x_LINOLENIC_ACID"
+	~
+
+"R_TSE_OLEATE-CPD":
+	1.0 "OLEATE-CPD" -> 1.0 "x_OLEATE-CPD"
+	~
+
+"R_TSE_PALMITATE":
+	1.0 "PALMITATE" -> 1.0 "x_PALMITATE"
+	~
+
+"R_TSE_STEARIC_ACID":
+	1.0 "STEARIC_ACID" -> 1.0 "x_STEARIC_ACID"
+	~
+
+
+##
+# Respiratory CO2 export and Photosynthetic O2 export
+##
+
+"R_TSE_CARBON-DIOXIDE":
+	1.0 "CARBON-DIOXIDE" -> 1.0 "x_CARBON-DIOXIDE"
+	~
+
+"R_TSE_OXYGEN-MOLECULE":
+	1.0 "OXYGEN-MOLECULE" -> 1.0 "x_OXYGEN-MOLECULE"
+	~
+
+"R_TSE_WATER":
+	1.0 "WATER" -> 1.0 "x_WATER"
+	~
+
+
+##
+# CoFactors and Vitamins
+##
+
+"R_TSE_ADENOSYL-HOMO-CYS":
+	1.0 "ADENOSYL-HOMO-CYS" -> 1.0 "x_ADENOSYL-HOMO-CYS"
+	~
+
+"R_TSE_ASCORBATE":
+	1.0 "ASCORBATE" -> 1.0 "x_ASCORBATE"
+	~
+	
+##"R_TSE_CO-A":
+##	1.0 "CO-A" -> 1.0 "x_CO-A"
+##	~
+"R_TSE_FAD":
+	1.0 "FAD" -> 1.0 "x_FAD"
+	~
+
+"R_TSE_PYRIDOXAL_PHOSPHATE":
+	1.0 "PYRIDOXAL_PHOSPHATE" -> 1.0 "x_PYRIDOXAL_PHOSPHATE"
+	~
+
+"R_TSE_THF":
+	1.0 "THF" -> 1.0 "x_THF"
+	~
+	
+"R_TSE_THIAMINE-PYROPHOSPHATE":
+	1.0 "THIAMINE-PYROPHOSPHATE" -> 1.0 "x_THIAMINE-PYROPHOSPHATE"
+	~
+
+"R_TSE_CO-A":
+	1.0 "CO-A" -> 1.0 "x_CO-A" + 4.0 "PROTON" 
+	~
+
+#Porphyrins
+"R_TSE_CPD1F-114":
+	1.0 "CPD1F-114" -> 1.0 "x_CPD1F-114"
+	~
+	
+"R_TSE_CHLOROPHYLL-A":
+	1.0 "CHLOROPHYLL-A" -> 1.0 "x_CHLOROPHYLL-A"
+	~
+
+"R_TSE_CHLOROPHYLL-B":
+	1.0 "CHLOROPHYLL-B" -> 1.0 "x_CHLOROPHYLL-B"
+	~
+
+"R_TSE_HEME_O":
+	1.0 "HEME_O"  -> 1.0 "x_HEME_O" + 2.0 "PROTON"
+	~
+
+
+##
+# DNA and RNA
+##
+"R_TSE_ATP":
+	1.0 "WATER" + 1.0 "ATP"  -> 1.0 "PPI" + 1.0 "x_AMP" + 1.0 "PROTON"
+	~
+	
+"R_TSE_CTP":
+	1.0 "CTP" + 1.0 "WATER"  -> 1.0 "x_CMP" + 1.0 "PPI"+ 1.0 "PROTON"
+	~
+	
+"R_TSE_DATP":
+	1.0 "DATP" + 1.0 "WATER" -> 1.0 "PPI" + 1.0 "x_DAMP"+ 1.0 "PROTON"
+	~
+
+"R_TSE_DCTP":
+	1.0 "WATER" + 1.0 "DCTP" -> 1.0 "x_DCMP" + 1.0 "PPI"+ 1.0 "PROTON"
+	~
+
+"R_TSE_DGTP":
+	1.0 "DGTP" + 1.0 "WATER"-> 1.0 "PPI" + 1.0 "x_DGMP"+ 1.0 "PROTON"
+	~
+
+"R_TSE_GTP":
+	1.0 "GTP" + 1.0 "WATER" -> 1.0 "PPI" + 1.0 "x_GMP"+ 1.0 "PROTON"
+	~
+	
+"R_TSE_TTP":
+	1.0 "TTP" + 1.0 "WATER" -> 1.0 "PPI" + 1.0 "x_TMP"+ 1.0 "PROTON"
+	~
+
+
+"R_TSE_UTP":
+	1.0 "UTP" + 1.0 "WATER" -> 1.0 "PPI" + 1.0 "x_UMP"+ 1.0 "PROTON"
+	~
+
+##
+# Cell Wall
+##
+
+# Lignins
+
+"R_TSE_CONIFERYL-ALCOHOL":
+	1.0 "CONIFERYL-ALCOHOL" -> 1.0 "x_CONIFERYL-ALCOHOL"
+	~
+
+"R_TSE_COUMARYL-ALCOHOL":
+	1.0 "COUMARYL-ALCOHOL" -> 1.0 "x_COUMARYL-ALCOHOL"
+	~
+
+"R_TSE_SINAPYL-ALCOHOL":
+	1.0 "SINAPYL-ALCOHOL" -> 1.0 "x_SINAPYL-ALCOHOL"
+	~
+
+#HemiCellulose
+"R_TSE_RHAMNOSE":
+	1.0 "WATER" + 1.0 "UDP-L-RHAMNOSE" -> 1.0 "UDP" + 1.0 "PROTON" + 1.0 "x_L-rhamnose"
+	~
+	
+"R_TSE_L-ARABINOSE":
+	1.0 "WATER" + 1.0 "UDP-L-ARABINOSE" -> 1.0 "UDP" + 1.0 "x_L-ARABINOSE" + 1.0 "PROTON"
+	~
+
+
+"R_TSE_L-GALACTOSE":
+	1.0 "WATER" + 1.0 "GDP-L-GALACTOSE" -> 1.0 "x_L-GALACTOSE" + 1.0 "GDP" + 1.0 "PROTON"
+	~
+
+"R_TSE_UDP-D-GALACTURONATE":
+	1.0 "WATER" + 1.0 "UDP-D-GALACTURONATE" -> 1.0 "UDP" + 1.0 "x_D-GALACTURONATE" + "PROTON"
+	~
+	
+"R_TSE_XYLOSE":
+	1.0 "WATER" + 1.0 "UDP-D-XYLOSE" -> 1.0 "x_XYLOSE" + 1.0 "PROTON" + 1.0 "UDP"
+	~
+
+"R_TSE_L-FUCOSE":
+	1.0 "WATER" + 1.0 "GUANOSINE_DIPHOSPHATE_FUCOSE" -> 1.0 "GDP" + 1.0 "PROTON" + 1.0 "x_L-FUCOSE"
+	~
+
+"R_TSE_MANNOSE":
+	1.0 "WATER" + 1.0 "GDP-MANNOSE" -> 1.0 "GDP" + 1.0 "x_MANNOSE" + 1.0 "PROTON"
+	~
+
+#Cellulose"
+"R_TSE_CELLULOSE":
+	1.0 "CELLULOSE" -> 1.0 "x_CELLULOSE"
+	~
+
+
+
+"R_TSE_PROTON":
+	1.0 "PROTON" -> 1.0 "x_PROTON" 
+	~
+
+
+#Starch and Xyloglucans
+"R_TSE_XLFG-Xyloglucans":
+	1.0 "XLFG-Xyloglucans" -> 1.0 "x_XLFG-Xyloglucans"
+	~
+
+"R_TSE_Starch":
+	1.0 "Starch" -> 1.0 "x_Starch"
+	~
+
+
+#Test
+##"Charge_tx":
+##    Charge <> x_Charge
+##    ~
+
+# Ammonia Export
+
+##"R_TSC_AMMONIA":
+##    "AMMONIA" -> "x_AMMONIA"
+##    ~
+##"R_TSE_HYDROGEN_MOLECULE":
+##    "HYDROGEN-MOLECULE" -> "x_HYDROGEN_MOLECULE"
+##    ~
+
+"R_TSE_ADENOSYLCOBALAMIN":
+    "ADENOSYLCOBALAMIN" -> "x_ADENOSYLCOBALAMIN"
+    ~
